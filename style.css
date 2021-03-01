@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #eee;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.5vw;
+}
+
+.title {
+  font-size: 6vw;
+  margin: 0;
+  padding: 0;
+}
+
+.tagline {
+  font-size: 3.5vw;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#img-div {
+  background-color: #fff;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 1.2vw;
+  margin: 15px 0 5px 0;
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin: 75px auto;
+}
+
+#tribute-info blockquote {
+  font-style: italic;
+  font-size: 1.2vw;
+  margin-bottom: 25px;
+}
+
+#tribute-info blockquote p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+#videos {
+  margin: 75px 0 60px 0;
+}
+
+#know-more {
+  background-color: #000;
+  padding: 5px 0 10px 0;
+}
+
+#know-more h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+#know-more ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#know-more li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#know-more li a {
+  color: #fff;
+}
+
+@media (max-width: 460px) {
+  .title {
+    font-size: 2em;
+  }
+  
+  .tagline, h2 {
+    font-size: 1.5em;
+  }
+  
+  #img-caption {
+  font-size: .8em;
+  }
+  
+  #img-div {
+    padding: 8px;
+  }
+  
+  #tribute-info blockquote {
+    font-size: 0.8em;
+  }
+  
+  #know-more li {
+    font-size: 1.5em;
+  }
+  
+  .video {
+  float: none;
+  clear: both;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
